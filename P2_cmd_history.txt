@@ -1,0 +1,20 @@
+  257  cd ./Problem1
+  258  ls
+  259  cd ./electron_scattering_data
+  260  touch bash_sorting.sh
+  261  chmod +x bash_sorting.sh
+  262  bash_sorting.sh
+  263  ./bash_sorting.sh
+  264  ./bash_sorting.sh
+  265  ls
+  266  cd ../../
+  267  git status
+  268  git add .
+  269  git commit -m "Completed P2"
+  270  git push
+  271  git status
+  272  ls
+  273  git pull origin
+  274  git pull origin main
+  275  history > P2_cmd_history.txt
+  276  history | tail -n 20 > P2_cmd_history.txt
